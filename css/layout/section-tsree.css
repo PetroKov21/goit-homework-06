@@ -1,18 +1,13 @@
-/* SECTION THREE */
-
 .section-three {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
 
-.team-list {
-    display: flex;
-    gap: 24px;
 
-}
 
 .our-time-list {
-    width: calc((100% - 72px) / 4);
+    max-width: 264px;
+   
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -21,11 +16,74 @@
 
 
 
+/* SECTION THREE */
+
+
+ .section-three {
+    background-color: #F4F4FD;
+    padding: 96px 0;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+
+}
+
+.title-three {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px
+}
+
+
+
+
+.team-social-linc-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+.team-social-linc-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    fill: #f4f4fd;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.team-social-linc-icon:hover,
+.team-social-linc-icon:focus {
+    background-color: #404BBF;
+} 
+
 .hame-our-times {
     padding: 32px 0;
 
 
 }
+
+.description-services {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 
 .title-three {
     color: #2E2F42;
@@ -46,35 +104,48 @@
 }
 
 
-.description-services {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 8px;
+
+@media screen and (min-width: 768px) {
+    .our-time-list {
+        width: calc((100% - 24px) / 2);
+        
+    }
+    .team-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 64px 24px ;
+
+    }
+
+    
+
+
+
 }
 
-/* Link to the teams social networks */
-.team-social-linc-list {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-}
 
-.team-social-linc-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    fill: #f4f4fd;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-/* active icons */
-.team-social-linc-icon:hover,
-.team-social-linc-icon:focus {
-    background-color: #404BBF;
-}
+@media screen and (min-width: 1158px) {
+    .our-time-list {
+        width: calc((100% - 72px) / 4);
+        
+    }
+
+    .team-list {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .section-three {
+        padding: 120px 0;
+    }
+} 
+
+
+
+
+
+
 
