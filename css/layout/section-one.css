@@ -1,0 +1,68 @@
+/* SECTION ONE */
+ /* hero backgroundg */
+ .hero {
+    
+    background: #2E2F42;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/bgre.jpeg);
+    background-size: cover;
+
+
+}
+
+.text-one {
+    text-align: center;
+}
+
+.titel-h-one {
+
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white, #FFF);
+
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12;
+    max-width: 496px;
+}
+
+
+
+.button-type {
+
+    display: block;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+
+}
+
+.hero .button-type:hover,
+.button-type:focus {
+    background-color: #404BBF;
+}

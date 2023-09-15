@@ -1,0 +1,58 @@
+/* SECTION TWO */
+
+.benefits-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+
+
+}
+
+
+.benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-benefits-list {
+    width: calc((100% - 72px) / 4);
+}
+
+.title-h-three-benefite {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.text-two {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
