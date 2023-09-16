@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 767px) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/dark-bg.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/dark-bg.jpg);
 
     }
 
@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/dark-bg@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/dark-bg@2x.jpg);
 
     }
 
@@ -88,7 +88,7 @@
 
 @media screen and (min-width: 768px) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/plansh-bg.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/plansh-bg.jpg);
     }
 
     .titel-h-one {
@@ -105,7 +105,7 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/plansh-bg@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/plansh-bg@2x.jpg);
     }
 
 }
@@ -118,7 +118,7 @@
 
 @media screen and (min-width: 1158px) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/people-office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/people-office.jpg);
     }
 
     .titel-h-one {
@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/people-office@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/people-office@2x.jpg);
     }
 
 }
