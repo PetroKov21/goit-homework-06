@@ -118,7 +118,7 @@
 
 @media screen and (min-width: 1158px) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(./images/bacground/people-office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/people-office.jpg);
     }
 
     .titel-h-one {
@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/bacground/people-office@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bacground/people-office@2x.jpg);
     }
 
 }
