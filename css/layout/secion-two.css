@@ -51,10 +51,10 @@
 }
 
 .text-two {
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -99,35 +99,41 @@ letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
         margin-bottom: 8px;
-    
-    
+
+
     }
-    
-    
+
+
     .benefits {
         padding-top: 120px;
         padding-bottom: 120px;
     }
-    
+
     .benefits-list {
         flex-direction: row;
         gap: 24px;
     }
-    
+
     .our-benefits-list {
         width: calc((100% - 72px) / 4);
         padding-bottom: 0px;
     }
-    
+
     .title-h-three-benefite {
         margin-bottom: 8px;
+        text-align: start;
+        font-family: Roboto;
+        font-size: 20px;
         font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+
+
     }
-    
+
+
     .text-two {
         font-weight: 400;
-
-       
     }
 
 }

@@ -4,14 +4,17 @@
 .hero {
 
     background: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/bacground/dark.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(.../images/bacground/dark.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 188px 0;
+    padding: 112px 0;
     background-size: cover;
 
 
 }
+
+
+/* linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)) */
 
 .text-one {
     text-align: center;
@@ -102,6 +105,7 @@
 @media screen and (min-width: 1158px) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/bacground/office.jpg');
+        padding: 188px 0;
     }
 
     .titel-h-one {
@@ -115,7 +119,7 @@
 
 
 
-/* @media screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx), screen and (max-width: 767px) and (min-device-pixel-ratio: 2) {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx), screen and (max-width: 767px) and (min-device-pixel-ratio: 2) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/bacground/dark@2x.jpg');
 
@@ -123,7 +127,7 @@
 
 
 
-} */
+} 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/bacground/plansh@2x.jpg');
