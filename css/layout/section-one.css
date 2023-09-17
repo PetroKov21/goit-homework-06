@@ -115,7 +115,7 @@
 
 
 
-@media screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx), screen and (max-width: 767px) and (min-device-pixel-ratio: 2) {
+/* @media screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx), screen and (max-width: 767px) and (min-device-pixel-ratio: 2) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/bacground/dark@2x.jpg');
 
@@ -123,7 +123,7 @@
 
 
 
-}
+} */
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url('../images/bacground/plansh@2x.jpg');
